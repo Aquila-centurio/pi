@@ -1,0 +1,81 @@
+.pizzacard {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .pizza-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  p {
+    margin: 5px 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .diameter-select {
+    width: 80%;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .add-to-cart {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #45a049;
+  }
+  
